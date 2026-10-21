@@ -12,7 +12,7 @@ Original user-supplied JPEG preserved in `src/assets/zhaxy-logo.jpg` (59 KB). CS
 No verified contact destination. The supplied historical Telegram candidate returned a generic Telegram contact page without identity evidence. Instagram could not be retrieved. Neither is activated. The contact section explicitly explains that connection is pending for this demo; no enquiry is simulated.
 
 ## Mappings
-GitHub repository: https://github.com/a3ycka3kypocka3atu/zhaxy-production (public; main; source delivery authorized again by the user).
+GitHub repository: https://github.com/a3ycka3kypocka3atu/zhaxy-production (PUBLIC; main; remote source verified).
 Vercel: `andrij-projects/zhaxy-production`, project `prj_BPbtJmaj5GHWx0yo9i17tGsEzTIv`. Assigned stable domain: https://zhaxy-production.vercel.app (public production verified). Release path: explicit CLI production deployment; Git integration is not connected, so source pushes do not deploy automatically.
 Supplementary documents: not configured. Source context was supplied in conversation; no private brief is included here.
 
@@ -25,5 +25,6 @@ Supplementary documents: not configured. Source context was supplied in conversa
 - Full-page desktop and mobile screenshots inspected; no material layout defects found.
 - Original logo integrated and inspected on desktop/mobile. Responsive, keyboard, reduced-motion, no-JavaScript and console checks passed locally and on public production.
 - Public production: HTTP 200 without authentication; HTML, CSS, JavaScript, robots.txt and logo/favicon bytes matched the local build. X-Robots-Tag is noindex, nofollow.
-- Production deployment 3964940 verified READY with matching commit metadata and stable alias. Final favicon clipping correction is being released on the same path; final delivery evidence is reported in the task.
+- Final production deployment `dpl_E6PLkoVzw3nMoWndrhi3PB5qnsKY` is READY for code commit `1838424a3b27b8ace1b510a58aca32d53109b365`. Stable public URL serves that build without login. All six deployed assets match local build bytes; corrected favicon visually inspected.
+- This snapshot update is documentation-only; it does not change the deployed website. The final remote main includes this delivery record.
 - No Git deployment trigger is connected. Future releases use the linked project with explicit CLI production deployment. No environment variables are required by the application.
