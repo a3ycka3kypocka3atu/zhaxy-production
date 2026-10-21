@@ -3,7 +3,7 @@
 ## Product and architecture
 Russian one-page demo for Amir’s ZHAXY Production, based on the supplied website context. Includes hero, professional background, six enquiry directions, five production steps, collaboration roles and contact/pricing explanation. Amir leads; MOTN is an independent marketing collaborator with separately scoped digital services. No portfolio, invented proof, prices, submission forms, backend, tracking or external runtime dependencies.
 
-`src/index.html` holds public copy and social metadata. `src/styles.css` provides responsive editorial layout. `src/main.js` adds progressive reveal animation respecting reduced motion. Native details/summary controls work without JavaScript. `scripts/build.mjs` copies source into `dist/`. `vercel.json` configures static deployment and noindex headers. HTML and deployment response headers request noindex. robots.txt permits crawling so crawlers can read those directives; noindex is not access control.
+`src/index.html` holds public copy and social metadata. `src/styles.css` provides responsive editorial layout. `src/main.js` adds one-time section reveals and a bounded 70 ms process-step stagger. Active animations cancel when reduced motion is enabled or their content receives keyboard focus. CSS adds camera-frame entrance, arrow feedback and accordion-content transitions; all spatial motion respects reduced motion. Native details/summary controls work without JavaScript. `scripts/build.mjs` copies source into `dist/`. `vercel.json` configures static deployment and noindex headers. HTML and deployment response headers request noindex. robots.txt permits crawling so crawlers can read those directives; noindex is not access control.
 
 ## Brand assets
 Original user-supplied JPEG preserved in `src/assets/zhaxy-logo.jpg` (59 KB). CSS crops excess visual padding in header/footer; no generated lettering or identity changes. SVG favicon frames the camera/P from the same embedded original. Social metadata references the original logo.
@@ -25,6 +25,9 @@ Supplementary documents: not configured. Source context was supplied in conversa
 - Full-page desktop and mobile screenshots inspected; no material layout defects found.
 - Original logo integrated and inspected on desktop/mobile. Responsive, keyboard, reduced-motion, no-JavaScript and console checks passed locally and on public production.
 - Public production: HTTP 200 without authentication; HTML, CSS, JavaScript, robots.txt and logo/favicon bytes matched the local build. X-Robots-Tag is noindex, nofollow.
-- Final production deployment `dpl_E6PLkoVzw3nMoWndrhi3PB5qnsKY` is READY for code commit `1838424a3b27b8ace1b510a58aca32d53109b365`. Stable public URL serves that build without login. All six deployed assets match local build bytes; corrected favicon visually inspected.
+- Base production deployment `dpl_E6PLkoVzw3nMoWndrhi3PB5qnsKY` is READY for code commit `1838424a3b27b8ace1b510a58aca32d53109b365`. Stable public URL serves that build without login. All six deployed assets match local build bytes; corrected favicon visually inspected.
 - This snapshot update is documentation-only; it does not change the deployed website. The final remote main includes this delivery record.
 - No Git deployment trigger is connected. Future releases use the linked project with explicit CLI production deployment. No environment variables are required by the application.
+
+## Motion refinement
+Build and syntax checks passed. Desktop (1440) and mobile (390) browser checks confirmed five staggered process steps, immediate reduced-motion cancellation, working keyboard accordions, no horizontal overflow and no page errors. Mid-animation screenshots inspected. Mechanical design scan reported only the existing Arial font; typography was preserved because this task is limited to motion.
