@@ -25,9 +25,9 @@ Supplementary documents: not configured. Source context was supplied in conversa
 - Full-page desktop and mobile screenshots inspected; no material layout defects found.
 - Original logo integrated and inspected on desktop/mobile. Responsive, keyboard, reduced-motion, no-JavaScript and console checks passed locally and on public production.
 - Public production: HTTP 200 without authentication; HTML, CSS, JavaScript, robots.txt and logo/favicon bytes matched the local build. X-Robots-Tag is noindex, nofollow.
-- Base production deployment `dpl_E6PLkoVzw3nMoWndrhi3PB5qnsKY` is READY for code commit `1838424a3b27b8ace1b510a58aca32d53109b365`. Stable public URL serves that build without login. All six deployed assets match local build bytes; corrected favicon visually inspected.
-- This snapshot update is documentation-only; it does not change the deployed website. The final remote main includes this delivery record.
+- Current production deployment `dpl_FYLpqCed1yLaXmLfeP8e2UdaFyNP` is READY for website commit `ff8c869aadac0ac03cffed53bf33c955987bacbc`. Stable public URL serves the motion refinement; deployed JS/CSS bytes match the local build.
+- The subsequent snapshot commit is documentation-only and does not change the deployed website.
 - No Git deployment trigger is connected. Future releases use the linked project with explicit CLI production deployment. No environment variables are required by the application.
 
 ## Motion refinement
-Build and syntax checks passed. Desktop (1440) and mobile (390) browser checks confirmed five staggered process steps, immediate reduced-motion cancellation, working keyboard accordions, no horizontal overflow and no page errors. Mid-animation screenshots inspected. Mechanical design scan reported only the existing Arial font; typography was preserved because this task is limited to motion.
+Build and syntax checks passed. Desktop (1440) and mobile (390) browser checks confirmed five staggered process steps, immediate reduced-motion cancellation, working keyboard accordions, no horizontal overflow and no page errors. Mid-animation screenshots inspected. The same desktop/mobile behavior checks passed on the public production URL after release. Mechanical design scan reported only the existing Arial font; typography was preserved because this task is limited to motion.
